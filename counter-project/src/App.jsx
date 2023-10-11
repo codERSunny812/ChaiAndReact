@@ -16,13 +16,15 @@ function App() {
   const [value , setValue ] = useState(0);
   const addThevalue = () =>{
     setValue(value+1);
+    setValue(value+1);
+    setValue(value+1);
   }
  
-  const removeTheValue = () =>{
+  // const removeTheValue = () =>{
    
-    setValue(value-1);
+  //   setValue(value-1);
  
-  }
+  // }
 
   // assigment also done for this project 
   const removeTheValue = () =>{
